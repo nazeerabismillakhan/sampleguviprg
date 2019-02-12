@@ -1,7 +1,7 @@
-values=int(input())
-if values==0:
+val=int(input())
+if val==0:
 	print("Zero")
-elif values%2==0:
+elif val%2==0:
 	print("Even")
 else:
 	print("invalid")
